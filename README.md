@@ -8,5 +8,5 @@
 
 ## 基础用法
 1. initTemplate(false,'`<span>哇！${name}好可爱!</span>`','test')({name:'土豆，奥利奥'});
-2.initTemplate(true,'./tests3.js')({name:'土豆，奥利奥'});
-3.initTemplate(false,'`<span>${include("./test2.js",{name:name})}</span>`','test2')({name:'土豆，奥利奥'});
+2. initTemplate(true,'./tests3.js')({name:'土豆，奥利奥'});
+3. initTemplate(false,'`<span>${include("./test2.js",{name:name})}</span>`','test2')({name:'土豆，奥利奥'});
